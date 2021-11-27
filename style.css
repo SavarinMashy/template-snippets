@@ -1,0 +1,67 @@
+:root {
+  font-size: 16px;
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+}
+
+.view-box {
+  border: yellow;
+  border-width: 10px;
+}
+
+.menu-bar {
+  background-color: #202020;
+  color: #e9e8e9;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin-left: 1rem;
+}
+
+#apl-glyph {
+  font-size: 1.5625rem;
+  vertical-align: middle;
+}
+
+.app {
+  vertical-align: middle;
+}
+
+.window {
+  margin: 1rem 2rem;
+  border-width: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.title-bar {
+  background-color: #1e1e1e;
+}
+
+.window-btns {
+  padding: 0.5rem;
+}
+
+.optn-btn {
+  height: 0.85rem;
+  width: 0.85rem;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+.close-btn {
+  background-color: #ff6259;
+}
+
+.min-btn {
+  background-color: #ffc13d;
+}
+
+.fulscrn-btn {
+  background-color: #17c94b;
+}
+
+.mink {
+  background-color: #17c94b;
+}
+
+.sauce {
+  border-radius: 40px;
+}
