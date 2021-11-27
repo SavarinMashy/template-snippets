@@ -17,3 +17,7 @@ the amount of java script in the widget link is concerning
 and language
 
 not a widget allows granular control over ui components and can tweak it as you please
+
+errata and if you would like to improve implementaion please do raise an issue send a pull request or reach out on twitter/email
+
+as opposed to screen shots this lets you format and copy the content

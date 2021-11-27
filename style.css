@@ -1,19 +1,21 @@
 :root {
   font-size: 16px;
   box-sizing: border-box;
-  /* https://uigradients.com/#Delicate */
-  background: linear-gradient(to right, #d3cce3, #e9e4f0);
 }
 
-.view-box {
+.embed {
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 0.85rem;
+  /* https://uigradients.com/#Delicate */
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
 }
 
 .menu-bar {
   background-color: #202020;
   color: #e9e8e9;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding-top: 00.25rem;
+  padding-bottom: 00.25rem;
 }
 
 #apl-glyph {
@@ -27,11 +29,10 @@
 }
 
 .window {
-  margin: 1rem 2rem;
-  border-width: 2rem;
+  margin: 1.5rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 0.85rem;
 }
 
 .title-bar {
@@ -53,15 +54,15 @@
 }
 
 .close-btn {
-  background-color: #ff6259;
+  background-color: #ee6a5e;
 }
 
 .min-btn {
-  background-color: #ffc13d;
+  background-color: #f6bd4f;
 }
 
 .fulscrn-btn {
-  background-color: #17c94b;
+  background-color: #61c454;
 }
 
 .content {
