@@ -21,3 +21,5 @@ not a widget allows granular control over ui components and can tweak it as you 
 errata and if you would like to improve implementaion please do raise an issue send a pull request or reach out on twitter/email
 
 as opposed to screen shots this lets you format and copy the content
+
+js fiddle and or codepen or github.io host figure out max limit for previewing live more than screenshot for behaviour
