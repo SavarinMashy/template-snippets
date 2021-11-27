@@ -1,24 +1,25 @@
 :root {
   font-size: 16px;
+  box-sizing: border-box;
   /* https://uigradients.com/#Delicate */
   background: linear-gradient(to right, #d3cce3, #e9e4f0);
 }
 
 .view-box {
-  border: yellow;
-  border-width: 10px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .menu-bar {
   background-color: #202020;
   color: #e9e8e9;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  margin-left: 1rem;
 }
 
 #apl-glyph {
   font-size: 1.5625rem;
   vertical-align: middle;
+  margin-left: 1rem;
 }
 
 .app {
@@ -29,14 +30,18 @@
   margin: 1rem 2rem;
   border-width: 2rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .title-bar {
   background-color: #1e1e1e;
+  padding-top: 0.25rem;
 }
 
 .window-btns {
   padding: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .optn-btn {
@@ -59,10 +64,9 @@
   background-color: #17c94b;
 }
 
-.mink {
-  background-color: #17c94b;
-}
-
-.sauce {
-  border-radius: 40px;
+.content {
+  background-color: #05070d;
+  color: #98aee4;
+  padding-left: 1rem;
+  font-family: "Fira Code";
 }
