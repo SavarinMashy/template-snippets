@@ -1,6 +1,5 @@
 :root {
   font-size: 16px;
-  box-sizing: border-box;
 }
 
 .embed {
@@ -8,14 +7,16 @@
   border-radius: 0.85rem;
   /* https://uigradients.com/#Delicate */
   background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  border-width: 1rem;
+  border-color: #202020;
 }
 
 .menu-bar {
   background-color: #202020;
   color: #e9e8e9;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  padding-top: 00.25rem;
-  padding-bottom: 00.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 #apl-glyph {
@@ -24,7 +25,7 @@
   margin-left: 1rem;
 }
 
-.app {
+.app-name {
   vertical-align: middle;
 }
 
